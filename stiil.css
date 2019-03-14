@@ -1,0 +1,44 @@
+body {
+	background-color: 666;
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+table {
+	margin-top: 10px;
+	width: 100%;
+	border: solid 2px #ccc;
+	border-radius: 5px;
+	text-align: center;
+}
+
+tr:first-child td:first-child {
+	border-top-left-radius: 5px;
+	}
+
+tr:first-child td:last-child {
+	border-top-right-radius: 5px;
+	}
+
+tr:nth-child(1) {
+	height: 5em;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #fff;
+	background: #ff9900;
+	}
+
+tr:nth-child(2n+3){
+	background: #ccc;
+}
+
+td:first-child {
+	width: 50px;
+	}
+	
+
+
+#pais {
+	width: 100%;
+	border: solid 2px blue;
+	border-radius: 8px;
+}
